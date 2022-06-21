@@ -1,0 +1,23 @@
+# *****************************************************
+# Variables to control Makefile operation
+
+CC = g++
+CFLAGS = -Wall -g
+DEPS = header.h
+OBJ = main.o funct.o
+
+# ****************************************************
+# Targets needed to bring the executable up to date
+
+%.o: %.cpp $(DEPS)
+	$(CC) -cpp -o $@ $< $(CFLAGS)
+
+ex1.exe: $(OBJ)
+    $(CC) -o $@ $^ $(CFLAGS)
+
+# ****************************************************
+#Command to clean the code
+.PHONY: clean
+
+clean:
+	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~ 

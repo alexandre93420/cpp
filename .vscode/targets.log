@@ -1,0 +1,339 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+ 
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jun 21 18:05:44 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\alexa
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\alexa\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-642e41e8-8846-4642-a4d9-8447998f7424-sock
+# environment
+VSCODE_CWD = D:\EFREI\M1\S8\Cpp
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# environment
+GOPATH = C:\Users\alexa\go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23284_CWLALQWLFHGBKWZV
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\alexa\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /c/Users/alexa/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\alexa\OneDrive
+# makefile
+CURDIR := /d/EFREI/M1/S8/Cpp/cpp
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 23284
+# environment
+DASHLANE_DLL_DIR = C:\Users\alexa\AppData\Roaming\Dashlane\4.8.7.35982\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\alexa\AppData\Roaming\Dashlane\4.8.7.35982\ucrt
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\alexa\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\alexa
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 7)
+objects = main.o funct.o
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /c/Program Files/Python310/Scripts:/c/Program Files/Python310:/c/Program Files (x86)/VMware/VMware Workstation/bin:/c/Program Files/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/c/Program Files/Git/cmd:/c/Program Files/Microsoft/Web Platform Installer:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/c/Program Files/Microsoft VS Code/bin:/c/Program Files/Micron Technology/Micron Storage Executive:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/dotnet:/d/Develop/Sysinternals:/c/Users/alexa/AppData/Roaming/Python/Python310/Scripts:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/d/EFREI/Logiciels/bin:/c/Program Files/Go/bin:/mingw64/bin:/usr/bin:/c/Users/alexa/AppData/Local/Microsoft/WindowsApps:/c/Users/alexa/AppData/Roaming/Dashlane/4.8.7.35982/bin/Firefox_Extension/{442718d9-475e-452a-b3e1-fb1ee16b8e9f}/components:/c/Users/alexa/AppData/Roaming/Dashlane/4.8.7.35982/ucrt:/c/Users/alexa/AppData/Local/Programs/Python/Python36-32:/c/Users/alexa/AppData/Roaming/npm:/d/Develop/maven/bin:/d/Develop/flutter/bin:/d/Develop/IntelliJ IDEA 2021.2.1/bin:/c/Users/alexa/.dotnet/tools:/c/Users/alexa/go/bin
+# environment
+COMPUTERNAME = DESKTOP-P07FTJ5
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROMPT = $P$G
+# environment
+INTELLIJ IDEA = D:\Develop\IntelliJ IDEA 2021.2.1\bin;
+# environment
+LOGONSERVER = \\DESKTOP-P07FTJ5
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = alexa
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-P07FTJ5
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+!D: = d:\EFREI\M1\S8\Cpp\cpp
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-P07FTJ5
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\alexa\AppData\Roaming
+# makefile (from 'Makefile', line 3)
+CFLAGS = -g 
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/alexa
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /c/Users/alexa/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1ba106759b3cd934ff0ab568cd6baf5e-1.68.0-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = 9e09
+# environment
+DEFLOGDIR = C:\ProgramData\McAfee\Endpoint Security\Logs
+# makefile (from 'Makefile', line 1)
+CC = g++ 
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=13/140=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1556295394, inode 13792273858853506): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) -cpp $(CFLAGS) $(CPPFLAGS) $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 17:47:55.7137093
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	rm -f *.o *.exe
+
+ex1.exe: main.o funct.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	g++ -o $@ $(objects)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main.o funct.o
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 17:54:34.3723457
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main.o
+# automatic
+# * := main
+# automatic
+# < := main.cpp
+# automatic
+# + := main.cpp
+# automatic
+# % := 
+# automatic
+# ^ := main.cpp
+# automatic
+# ? := main.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) -cpp $(CFLAGS) $(CPPFLAGS) $< -o $@
+
+# Not a target:
+funct.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/27=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 143 B / avg = 7 B
+# current buf: size = 8162 B / used = 143 B / count = 20 / avg = 7 B
+
+# strcache performance: lookups = 32 / hit rate = 37%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/32=0%
+# Finished Make data base on Tue Jun 21 18:05:44 2022
+
+ 

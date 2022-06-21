@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/d/EFREI/M1/S8/Cpp/cpp'
+g++  -cpp -g   main.cpp -o main.o
+g++  -cpp -g   funct.cpp -o funct.o
+make: Leaving directory '/d/EFREI/M1/S8/Cpp/cpp'
+ 
